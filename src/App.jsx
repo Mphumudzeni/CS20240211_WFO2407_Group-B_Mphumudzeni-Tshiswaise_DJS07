@@ -1,9 +1,14 @@
+import { Header } from "./components/Header"
+import { Meme } from "./components/Meme.jsx"
+import React from "react"
 
-function App() {
+
+const App = () => {
 
   return (
     <>
-     
+      <Header/>
+      <Meme/>
     </>
   )
 }
